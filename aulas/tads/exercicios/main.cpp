@@ -10,7 +10,14 @@ int main(){
 
 	imprimir_saldo(c);
 
+	deposito(c, 800.0);
 
+
+	imprimir_saldo(c);
+
+	saque(c,2000);
+
+	imprimir_saldo(c);
 
 	return 0;
 }
